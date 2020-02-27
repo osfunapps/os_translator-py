@@ -15,7 +15,7 @@ Install via pip:
     
     heb_str = translator.translate_text("What's the time?",
                                         "/path/to/service/account/.json",
-                                        "firebaseprojectName",
+                                        "firebaseprojectId",
                                         "en-US",
                                         "iw")
                                         
