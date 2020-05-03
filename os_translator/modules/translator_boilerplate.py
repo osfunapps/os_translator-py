@@ -11,7 +11,6 @@ play_initials_bank = ['en-GB', 'af', 'am', 'ar', 'hy-AM', 'az-AZ', 'bn-BD', 'eu-
 def translate_sentence(translate_client, project_id, language_src, language_dest, text):
     # translate
     parent = translate_client.location_path(project_id, "global")
-    print("translating to: " + language_dest)
     try:
         response = translate_client.translate_text(
             parent=parent,

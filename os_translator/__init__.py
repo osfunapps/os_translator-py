@@ -1,1 +1,1 @@
-import os_translator.Translator
+import os_translator.translator
